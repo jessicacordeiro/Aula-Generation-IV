@@ -1,0 +1,112 @@
+/*Estilos da página index.htlm*/
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-size: 15px;
+}
+
+#menu li a:hover {
+    color: blue;
+}
+
+.menu{
+    text-align: right;
+    display: flex;
+    flex-flow: wrap-reverse;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.cabeçalho{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.sub-cabeçalho{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 18px;
+    text-align: center;
+}
+
+.título{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 10;
+}
+
+.paragrafo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.justificado{
+    text-align: justify;
+}
+
+.p-100{
+    padding: 100px;
+}
+
+.pb-100{
+    padding-bottom: 100px;
+}
+.p-100{
+    padding-left: 100px;
+}
+
+p-60{
+    padding: 60px;
+}
+
+m-50{
+    margin: 50px;
+}
+
+center{
+    text-align: center;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+/*Estilos da página contato.htlm*/
+
+
+
+/*Estilo de rodapé para as duas páginas*/
+
+.rodape{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10;
+    text-align: center;
+}
+
+.tm-social{
+    width: 25px;
+    padding: 5px;
+}
