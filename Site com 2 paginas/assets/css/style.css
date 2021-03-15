@@ -16,6 +16,11 @@
     color: blue;
 }
 
+#whoami {
+    width: 300px;
+    word-wrap: break-word;
+}
+
 .menu{
     text-align: right;
     display: flex;
