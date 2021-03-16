@@ -1,5 +1,6 @@
 /*Estilos da página index.htlm*/
 
+/*-----------menu-------------*/
 #menu li {
     display: inline;
     padding: 15px;
@@ -13,52 +14,69 @@
 }
 
 #menu li a:hover {
-    color: blue;
+    color: #FCA8B2;
 }
 
 #whoami {
-    width: 300px;
+    width: 200px;
     word-wrap: break-word;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 3px;
 }
 
 .menu{
     text-align: right;
     display: flex;
-    flex-flow: wrap-reverse;
+    flex-flow: wrap;
     justify-content: flex-end;
-    padding: 10px;
-    margin-left: 50px;
+    padding: 1px;
+    margin-left: 1050px;
 }
 
-.container{
+/*-----------Blog Quem Sou EU-------------*/
+.blog-geral{
     display: inline-flex;
     flex-direction: row;
     list-style: none;
 }
 
-.container-1 {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
+.quem-sou-eu{
+    background: #89D9ED;
 }
 
-.cabeçalho{
+.who-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10;
+}
+
+.who-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: justify;
+    line-height: 18px;
+}
+
+/*-----------Postagens do Blog-------------*/
+.post-list {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.cabeçalho {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: center;
 }
 
-.sub-cabeçalho{
-    font-family: 'Montserrat', sans-serif;;
-    font-size: 18px;
-    text-align: center;
-}
-
-.título{
+.título {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: left;
-    padding: 10;
+    padding: 40;
 }
 
 .paragrafo{
@@ -67,39 +85,49 @@
     text-align: justify;
 }
 
-
-.justificado{
-    text-align: justify;
+.img-post {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
-.p-100{
-    padding: 100px;
-}
-
-.pb-100{
-    padding-bottom: 100px;
-}
-.p-100{
-    padding-left: 100px;
-}
-
-p-60{
-    padding: 60px;
-}
-
-m-50{
-    margin: 50px;
-}
-
-center{
+.rodape-img{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-}
-
-.p-10{
-    padding: 10px;
+    width: 400px;
+    word-wrap: break-word;
 }
 
 /*Estilos da página contato.htlm*/
+
+.contact-title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 10;
+}
+
+.page-contact{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.formulario{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 10;
+}
 
 
 
