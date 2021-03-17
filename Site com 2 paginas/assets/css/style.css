@@ -3,18 +3,43 @@
 /*-----------menu-------------*/
 #menu li {
     display: inline;
-    padding: 15px;
+    padding-right: 5px;
 }
 
 #menu li a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color:black;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #menu li a:hover {
     color: #FCA8B2;
+}
+
+.menu{
+    text-align: right;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    padding: 1px;
+    margin-left: 850px;
+}
+.color-menu {
+    background-color: #ffffff;
+}
+
+.font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+/*-----------Blog Quem Sou EU-------------*/
+
+.blog-geral{
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
 }
 
 #whoami {
@@ -25,20 +50,9 @@
     margin-top: 3px;
 }
 
-.menu{
-    text-align: right;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: flex-end;
-    padding: 1px;
-    margin-left: 1050px;
-}
-
-/*-----------Blog Quem Sou EU-------------*/
-.blog-geral{
-    display: inline-flex;
-    flex-direction: row;
-    list-style: none;
+.img{
+    text-align: center;
+    margin-right: 10px;
 }
 
 .quem-sou-eu{
@@ -50,6 +64,7 @@
     font-size: 15px;
     text-align: center;
     padding: 10;
+    margin-top: 10px;
 }
 
 .who-text {
@@ -60,6 +75,7 @@
 }
 
 /*-----------Postagens do Blog-------------*/
+
 .post-list {
     display: flex;
     flex-direction: column;
@@ -70,6 +86,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: center;
+    margin-block-end: 30px;
 }
 
 .título {
