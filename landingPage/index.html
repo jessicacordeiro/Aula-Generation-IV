@@ -36,8 +36,6 @@
         }
         .color-1{
             background: #EB6C8E;
-            width: 1376px;
-            height: 520px;
         }
         .foto{
             flex-wrap: wrap;
@@ -83,6 +81,9 @@
             padding: 4px;
             padding-inline-end: 10px;
         }
+        .test{
+            height: 500px;
+        }
     </style>
 
 </head>
@@ -90,27 +91,34 @@
 <body>
 
     <!-- Menu -->
-    <div container-fluid>
-    <nav class="navbar navbar-light color-menu">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light color-menu">
+
         <a class="navbar-brand text-white logo-marca" href="index.html">MqL</a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active text-white font-subtitulo" href="index.html">HOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+          aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav">
+            <li class="nav-item active mx-md-3">
+              <a class="nav-link text-white" href="#"> HOME <span class="sr-only">(página atual)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white font-subtitulo" href="#quem-somos">QUEM SOMOS</a>
+            <li class="nav-item active mx-md-3">
+              <a class="nav-link text-white" href="#quem-somos">QUEM SOMOS</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link text-white font-subtitulo" href="#nosso-job">O QUE FAZEMOS?</a>
+            <li class="nav-item active mx-md-3">
+              <a class="nav-link text-white" href="#nosso-job">O QUE FAZEMOS?</a>
+            </li>
+            <li class="nav-item active mx-md-3">
+              <a class="nav-link text-white" href="#depoimentos">DEPOIMENTOS</a>
+            </li>
+            <li class="nav-item active mx-md-3">
+                <a class="nav-link text-white" href="#contato">CONTATO</a>
               </li>
-            <li class="nav-item">
-              <a class="nav-link text-white font-subtitulo" href="#depoimentos">DEPOIMENTOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white font-subtitulo" href="#contato">CONTATO</a>
-            </li>
-        </ul>
-    </nav>
+        </div>
+      </nav>
+    
     <!-- /Menu -->
 
     <!-- Banner do Site em Carrossel -->
@@ -133,49 +141,52 @@
     <!-- Quem somos? -->
     <div class="container">
         <div class="row">
-            <div class="col-6 color-1 mt-5 titulo-1" id="quem-somos">
+            <div class="col-md-6 color-1 mt-5 titulo-1" id="quem-somos">
                 <h1 class="d-flex justify-content-center text-white">QUEM SOMOS?</h1>
                 <p class="text-center text-white">Somos uma ONG que luta para acabar com todas as formas de abuso contra mulheres. Nosso objetivo é romper barreiras, acabar com a discriminação e derrubar estereótipos.</p>
             </div>
-            <div class="col-6 mt-5 foto">
-                <img src="assets/img/foto-quem-somos.png" alt="...">
+            <div class="col-md-6 mt-5 foto">
+                <img class="img-fluid" src="assets/img/foto-quem-somos.png" alt="...">
             </div>
         </div>
     </div>
 
     <!-- O que fazemos? -->
     <div class="backgroud">
-        <h1 class="d-flex justify-content-center title-2 mt-5 text-white" id="nosso-job">O QUE FAZEMOS?</h1>
-        <div class="card-deck mt-5 p-30">
-            <div class="card border-0 ml-5 p-6">
-                <img class="card-img-top" src="assets/img/icon-no-violence.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-titulo text-center mt-5">Chega de Violência</h5>
-                <p class="card-text text text-center">Conscientizamos e melhoramos estratégias de prevenção...</p>
+        <div class="container backgroud">
+            <h1 class="d-flex justify-content-center title-2 mt-5 text-white" id="nosso-job">O QUE FAZEMOS?</h1>
+            <div class="card-deck mt-5 p-30">
+                <div class="card border-0 p-6">
+                    <img class="card-img-top" src="assets/img/icon-no-violence.png" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title text-titulo text-center mt-5">Chega de Violência</h5>
+                    <p class="card-text text text-center">Conscientizamos e melhoramos estratégias de prevenção...</p>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <img class="card-img-top" src="assets/img/icon-crescimento.png" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title text-titulo text-center mt-5">Capacitação Econômica</h5>
+                    <p class="card-text text text-center">Lutamos para que as mulheres exerçam seus direitos econômicos.</p>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <img class="card-img-top" src="assets/img/icon-seguranca.png" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title text-titulo text-center mt-5">Segurança e Paz</h5>
+                    <p class="card-text text text-center">Lutamos contra a discriminação e outras injustiças.</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="card border-0">
-              <img class="card-img-top" src="assets/img/icon-crescimento.png" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title text-titulo text-center mt-5">Capacitação Econômica</h5>
-                <p class="card-text text text-center">Lutamos para que as mulheres exerçam seus direitos econômicos.</p>
-              </div>
-            </div>
-            <div class="card mr-5 border-0">
-              <img class="card-img-top" src="assets/img/icon-seguranca.png" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title text-titulo text-center mt-5">Segurança e Paz</h5>
-                <p class="card-text text text-center">Lutamos contra a discriminação e outras injustiças.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+
+    </div>
         
         <!-- Depoimentos -->
-        <div>
+        <div class="container">
             <h1 class="d-flex justify-content-center title-2 titulo-text" id="depoimentos">DEPOIMENTOS</h1>
             <div class="card-deck mt-5 p-30">
-                <div class="card border-0 ml-5 backgroud">
+                <div class="card border-0 backgroud">
                     <img class="card-img-top" src="assets/img/1.png" alt="">
                   <div class="card-body">
                     <h5 class="card-title text-titulo text-center mt-5">Mulheres Que Se Unem</h5>
@@ -189,7 +200,7 @@
                     <p class="card-text text text-center text-white">Depoimentos são frases curtas das pessoas que curtem sua marca. É uma ótima forma de convencer os clientes a experimentar seus serviços.</p>
                   </div>
                 </div>
-                <div class="card mr-5 border-0 backgroud">
+                <div class="card border-0 backgroud">
                   <img class="card-img-top" src="assets/img/3.png" alt="Imagem de capa do card">
                   <div class="card-body">
                     <h5 class="card-title text-titulo text-center mt-5">Elizabete Holanda</h5>
@@ -202,12 +213,12 @@
             <!-- Contato -->
             <div class="container p-30">
                 <div class="row">
-                    <div class="col-md-6">
-                        <img src="assets/img/Contato-vídeo.gif" alt="gif de duas mulheres andando e conversando em um ambiente de trabalho.">
+                    <div class="col-md-6 color-1">
+                        <img class="img-fluid mt-3 mb-3" src="assets/img/gif-contato.gif" alt="gif de duas mulheres andando e conversando em um ambiente de trabalho.">
                     </div>
-                    <div class="col-6 color-1" id="contato">
+                    <div class="col-md-6 color-1" id="contato">
 
-                        <h1 class="d-flex text-center text-white mt-5 titulo-size ml-3">Curtiu e quer saber mais? Entre em contato com a gente...</h1>
+                        <h1 class="text-center text-white mt-5 titulo-size ml-3">Curtiu e quer saber mais? Entre em contato com a gente...</h1>
 
                     <form>
                         <div class="form-group ml-5 mr-5 mt-4 text-white">
@@ -233,6 +244,7 @@
                 </div>
             </div>
         
+        
         <!-- Rodapé -->
         <hr>
         <footer class="rodape">
@@ -244,7 +256,7 @@
             <img class="tm-social" src="assets/img/linkedin.png" alt="Logotipo do Linkedin">
         </a>
         <a href="https://www.facebook.com/jessicaacordeiro/" target="_blank">
-            <img class="tm-social" src="../Site com 2 paginas/assets/img/facebook.png" alt="Logotipo do Facebook">
+            <img class="tm-social" src="assets/img/facebook.png" alt="Logotipo do Facebook">
         </a>
         <a href="https://github.com/jessicacordeiro" target="_blank">
             <img class="tm-social" src="assets/img/github-sign.png" alt="Logotipo do GitHub">
