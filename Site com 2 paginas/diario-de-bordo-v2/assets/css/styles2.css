@@ -1,0 +1,31 @@
+.barra-nav{
+    background: #7BDEE4;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+}
+
+section{
+    background-image: url(https://i.imgur.com/9kRDXHi.png);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.img-autora {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.who {
+    margin-top: 130px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: 'Itim', cursive;
+    color: #BE5866;
+}
+
+p {
+    font-style: italic;
+    font-size: 1.1rem;
+    text-align: justify;
+}
